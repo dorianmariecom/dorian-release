@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+if ARGV.any?
+  puts "USAGE: release"
+  exit
+end
+
+def system!(command)
+  puts command
+  system(command, exception: true)
+end
+
+File.delete(*Dir["*.gem"])
+system!("gem build")
+system!("gem push *.gem")
+File.delete(*Dir["*.gem"])
