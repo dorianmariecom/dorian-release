@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.summary = "Releases a gem"
   s.description = "#{s.summary}\n\ne.g. `release`"
   s.authors = ["Dorian Marié"]
-  s.email = "dorian@dorianmarie.fr"
+  s.email = "dorian@dorianmarie.com"
   s.files = ["bin/release"]
   s.executables << "release"
   s.homepage = "https://github.com/dorianmariefr/dorian-release"
