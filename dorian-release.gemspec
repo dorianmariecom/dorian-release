@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "dorian-release"
-  s.version = "0.1.2"
+  s.version = "0.1.3"
   s.summary = "Releases a gem"
   s.description = "#{s.summary}\n\ne.g. `release`"
   s.authors = ["Dorian Marié"]
@@ -12,4 +12,6 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/dorianmariefr/dorian-release"
   s.license = "MIT"
   s.metadata = { "rubygems_mfa_required" => "true" }
+
+  s.required_ruby_version = ">= 3.3.0"
 end
