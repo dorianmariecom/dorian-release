@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dorian-release (0.1.3)
+    dorian-release (0.1.5)
 
 GEM
   remote: https://rubygems.org/
