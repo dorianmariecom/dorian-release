@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "dorian-release"
-  s.version = "0.1.5"
+  s.version = "0.2.0"
   s.summary = "Releases a gem"
   s.description = "#{s.summary}\n\ne.g. `release`"
   s.authors = ["Dorian Marié"]
