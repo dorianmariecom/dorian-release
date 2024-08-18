@@ -3,8 +3,8 @@
 Gem::Specification.new do |s|
   s.name = "dorian-release"
   s.version = "0.2.1"
-  s.summary = "Releases a gem"
-  s.description = "#{s.summary}\n\ne.g. `release`"
+  s.summary = "releases a gem"
+  s.description = s.summary
   s.authors = ["Dorian Marié"]
   s.email = "dorian@dorianmarie.com"
   s.files = ["bin/release"]
