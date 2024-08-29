@@ -4,6 +4,6 @@ require "spec_helper"
 
 describe "release" do
   it "works" do
-    expect(`bin/release -h`).to include("USAGE")
+    expect(`bin/release -h 2>&1`).to include("USAGE")
   end
 end
