@@ -1,21 +1,35 @@
-# `dorian-pretty`
+# `dorian-release`
 
-Formats files in the current directory
+Build and push the current gem.
 
-### Install
+## Install
 
 ```bash
-gem install dorian-pretty
+gem install dorian-release
 ```
 
-Or as part of my other gems:
+Also included in the aggregate gem:
 
 ```bash
 gem install dorian
 ```
 
-### Usage
+## Usage
 
-`pretty`
+```bash
+release
+```
 
-Will format all the supported files in the current directory
+Run `release -h` for generated option details and `release -v` for the installed version.
+
+## Notes
+
+- Deletes local `*.gem` files, runs `gem build`, pushes the built gem, then deletes local `*.gem` files again.
+
+## Examples
+
+### Release the current gem
+
+```bash
+release
+```
